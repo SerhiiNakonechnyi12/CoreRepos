@@ -50,10 +50,7 @@ namespace ConsoleApp12
             A[2] = 4;
             A[3] = 5;
 
-            if (true)
-            {
-
-            }
+            
             for (int i = 0; i < A.a.Length; i++)
             {
                 WriteLine(A[i]); //2 3 4
