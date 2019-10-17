@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectsCSharp", "ProjectsCSharp\ProjectsCSharp.csproj", "{C0BD2A8E-26B1-450C-9EF9-D4E352F07F35}"
 EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ProjectsCSharp", "ProjectsCSharp\ProjectsCSharp.csproj", "{E64BD4C1-9348-487A-8449-C52BC5421BFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +15,9 @@ Global
 		{C0BD2A8E-26B1-450C-9EF9-D4E352F07F35}.Debug|anycpu.Build.0 = Debug|anycpu
 		{C0BD2A8E-26B1-450C-9EF9-D4E352F07F35}.Release|anycpu.ActiveCfg = Release|anycpu
 		{C0BD2A8E-26B1-450C-9EF9-D4E352F07F35}.Release|anycpu.Build.0 = Release|anycpu
+		{E64BD4C1-9348-487A-8449-C52BC5421BFE}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E64BD4C1-9348-487A-8449-C52BC5421BFE}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E64BD4C1-9348-487A-8449-C52BC5421BFE}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E64BD4C1-9348-487A-8449-C52BC5421BFE}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

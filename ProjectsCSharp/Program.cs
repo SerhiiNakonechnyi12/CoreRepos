@@ -20,46 +20,44 @@ using static System.Console;
 
 */
 
+
 namespace ConsoleApp12
 {
 
     class classA
     {
-        public int[,] array;
+        public int[] a;
 
-        public classA(int rows, int cols)
+        public classA(int size)
         {
-            array = new int[rows, cols];
+            a = new int[size];
         }
 
-        public int this[int rows, int cols] //Двумерный индексатор
+        public int this[int index] //Индексатор
         {
-            get { return array[rows, cols]; }
-            set { array[rows, cols] = value; }
+            get { return a[index]; }
+            set { a[index] = value; }
         }
     }
     class Program
     {
-        static void Main()
+        public static void Main()
         {
-            classA A = new classA(2, 3);
+            classA A = new classA(4);
 
-            for (int i = 0; i < 2; i++)
+            A[0] = 2;
+            A[1] = 3;
+            A[2] = 4;
+            A[3] = 5;
+
+            if (true)
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    A[i, j] = j;
-                }
+
             }
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < A.a.Length; i++)
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    Write(A[i, j]);
-                }
-                WriteLine();
+                WriteLine(A[i]); //2 3 4
             }
         }
     }
 }
-
